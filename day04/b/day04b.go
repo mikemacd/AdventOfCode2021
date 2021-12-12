@@ -39,7 +39,7 @@ func main() {
 	completedOrder := []struct {
 		i    int
 		call int
-		sum int
+		sum  int
 	}{}
 
 	for _, call := range callOrder {

@@ -88,9 +88,9 @@ func parseInput(lines []string) (f field, maxX, maxY, minX, minY int) {
 			}
 
 			// 2,2 -> 2,1
-			ll := int(math.Abs(float64(p2.x)-float64(p1.x)))  +1
+			ll := int(math.Abs(float64(p2.x)-float64(p1.x))) + 1
 			if math.Abs(float64(p2.x)-float64(p1.x)) == 0 {
-				ll = int(math.Abs(float64(p2.y)-float64(p1.y)))+1
+				ll = int(math.Abs(float64(p2.y)-float64(p1.y))) + 1
 			}
 			// fmt.Printf("line:%v has length: %v\n", i,ll)
 			for k := 0; k < int(ll); k++ {

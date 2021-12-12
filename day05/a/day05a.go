@@ -25,9 +25,9 @@ func main() {
 
 	// input.print(maxX, maxY, minX, minY)
 
-	crossings:= input.calculateCrossings(maxX, maxY, minX, minY)
-	
-	fmt.Printf("crossings: %v\n",crossings)
+	crossings := input.calculateCrossings(maxX, maxY, minX, minY)
+
+	fmt.Printf("crossings: %v\n", crossings)
 
 	os.Exit(0)
 }

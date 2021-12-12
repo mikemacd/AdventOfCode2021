@@ -41,10 +41,10 @@ func main() {
 	}
 
 	size := 0
-	for i:= range school {
-		size+=school[i]
+	for i := range school {
+		size += school[i]
 	}
-	
+
 	fmt.Printf("school size : %v\n", size)
 
 	os.Exit(0)

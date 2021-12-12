@@ -137,7 +137,7 @@ func hasBingo(b bingoBoard) bool {
 			return true
 		}
 	}
-	
+
 	// diagonals apparently don't count
 	// diagA := true
 	// diagB := true
